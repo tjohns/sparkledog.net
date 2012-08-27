@@ -1,0 +1,6 @@
+safe: true
+auto: false
+lsi:  false
+url: "http://sparkledog.net"
+author_name: "Trevor Johns"
+author_email: "trevor@tjohns.net"

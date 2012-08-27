@@ -1,0 +1,15 @@
+---
+layout: main
+---
+
+{% for post in site.posts limit: 5  %}
+  {% unless post.hide %}
+  <a href="{{ post.url }}" class="nav-link">
+  <article class="summary">
+    <p class="nav-hint">&raquo;</p>
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.summary }}</p>
+  </article>
+  </a>
+  {% endunless %}
+{% endfor %}

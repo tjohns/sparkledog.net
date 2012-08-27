@@ -1,0 +1,17 @@
+---
+layout: main
+---
+
+  <article class="full">
+  <header>
+    <img class="banner" src="images/banners/floral.jpg">
+  </header>
+
+    <h1>{{ page.title }}</h1>
+
+{{ content }}
+
+    <footer>
+    <p>Published: <time pubdate="pubdate">{{ page.date | date: "%Y %B %d" }}</time></p>
+  </footer>
+</article>
