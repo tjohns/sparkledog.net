@@ -129,6 +129,12 @@ article > * {
   margin-right: 67px;
 }
 
+article > img.wide {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 a.nav-link {
   color: #333;
   text-decoration: none;
