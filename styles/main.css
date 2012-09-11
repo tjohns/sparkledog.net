@@ -82,6 +82,12 @@ article > header {
   margin-top: -10px;
 }
 
+div#disqus_thread {
+  position: relative;
+  width: 630px;
+  margin: 0 auto 20px auto;
+}
+
 article > footer {
   margin: 50px 0 0 0;
   padding: 1px 10px 1px 10px;
