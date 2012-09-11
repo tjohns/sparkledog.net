@@ -211,4 +211,8 @@ a.nav-link article:hover {
   article > header {
     width: 100%;
   }
+
+  div#disqus_thread {
+    width: 95%;
+  }
 }
