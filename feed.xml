@@ -26,6 +26,7 @@ layout: nil
       <name>{{ site.author_name }}</name>
       <uri>{{ site.url }}/</uri>
     </author>
+    <summary>{{ post.summary | xml_escape }}</summary>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
     {% endunless %}
