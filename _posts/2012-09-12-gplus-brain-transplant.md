@@ -2,6 +2,7 @@
 layout: post
 title: The Google+ Brain Transplant
 summary: The tale of transferring my Google+ identity from one account to another. Yes, it can be done, at a cost.
+published: true
 ---
 
 After having my lifetime hosting account with Joyent/TextDrive [unceremoniously revoked (and later reinstated)][1], I decided to move my email to Google Apps. This left me with a dilemma: I now had two primary Google accounts. One of them had my email, and the other had my Google+ account, and everything else previously tied to it.
