@@ -2,6 +2,7 @@
 layout: post
 title: What Killed The Linux Desktop&#58; An Outsider's Perspective 
 summary: There's been a lot of discussion recently over a post from Miguel de Icaza on "What Killed The Linux Desktop". This is my take on the issue as someone outside the Linux development circle.
+published: true
 ---
 
 There's been a fair bit of recent discussion over a post from Miguel de Icaza on ["What Killed The Linux Desktop"][1]. Linus Torvalds [called much of the argument bunk][2] on technical grounds. But that doesn't change the fact that Linux on the desktop is not living up to its full potential -- but not for the reasons mentioned.

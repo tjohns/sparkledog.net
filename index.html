@@ -2,8 +2,8 @@
 layout: main
 ---
 
-{% for post in site.posts limit: 5  %}
-  {% unless post.hide %}
+{% for post in site.posts limit: 10  %}
+  {% if post.published %}
   <a href="{{ post.url }}" class="nav-link">
   <article class="summary">
     <p class="nav-hint">&raquo;</p>
@@ -11,5 +11,5 @@ layout: main
     <p>{{ post.summary }}</p>
   </article>
   </a>
-  {% endunless %}
+  {% endif %}
 {% endfor %}
