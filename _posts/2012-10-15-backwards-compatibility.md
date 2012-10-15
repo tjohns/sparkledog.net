@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Android compatibility made easy
+summary: Backwards compatibility. If you’re an application developer these words can send chills down your spine. You want to take advantage of the newest features available as your platform evolves, but you don’t want to abandon users running older OS versions. At best, this means extra work; at worst, maintaining entirely different codebases. If you’re an Android developer, here’s how to keep that extra work to a minimum.
 published: true
 ---
 
