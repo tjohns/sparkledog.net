@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Android's Social APIs
 summary: Slides from my talk on "Android's Social APIs", presented at GDG DevFest West earlier today.
 published: true
