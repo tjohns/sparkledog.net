@@ -7,6 +7,8 @@ published: true
 
 Earlier today at [GDG DevFest West](http://devfestwest.com) I gave a presentation titled "Android's Social APIs", covering topics like the Social Stream, NFC, NSD, and WiFi Direct.
 
-The slides from the presentation are now online. Hopefully people find them useful!
+Some folks were asking for a copy of the slides, so I just uploaded them.
 
 <script class="speakerdeck-embed" data-id="5083714ef713ac000200e1f5" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+Hopefully people find them useful.
