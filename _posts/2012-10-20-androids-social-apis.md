@@ -9,6 +9,6 @@ Earlier today at [GDG DevFest West](http://devfestwest.com) I gave a presentatio
 
 Some folks were asking for a copy of the slides, so I just uploaded them online. There's not much here that isn't covered in the documentation or official blog posts, but it's a good summary if any of this is new to you.
 
-View Slides: [Android's Social APIs - Speaker Deck](https://speakerdeck.com/u/tjohns/p/androids-social-apis)
+**View Slides:** [Android's Social APIs - Speaker Deck](https://speakerdeck.com/u/tjohns/p/androids-social-apis)
 
 If you find any of this useful, let me know in the comments below.
