@@ -50,5 +50,5 @@ So relax, backwards compatibility doesn't need to be scary.
 [verifier]: http://htmlpreview.github.com/?https://github.com/android/platform_dalvik/blob/master/docs/verifier.html
 [bug]: http://code.google.com/p/android/issues/detail?id=13100
 [verifier-change]: https://github.com/android/platform_dalvik/commit/0df441364d2721985d4e64a2ab398c4407c1ff55
-[comatibility-blog-2]: http://android-developers.blogspot.com/2010/07/how-to-have-your-cupcake-and-eat-it-too.html
+[compatibility-blog-2]: http://android-developers.blogspot.com/2010/07/how-to-have-your-cupcake-and-eat-it-too.html
 [dashboard]: http://android-developers.blogspot.com/2010/07/how-to-have-your-cupcake-and-eat-it-too.html
