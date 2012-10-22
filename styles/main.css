@@ -73,15 +73,6 @@ article {
   border-top: 5px solid #ffaa00; 
 }
 
-article > header {
-  margin-bottom: 50px;
-  width: 630px;
-  height: 200px;
-  overflow: hidden;
-  margin-left: 0;
-  margin-top: -10px;
-}
-
 div#disqus_thread {
   position: relative;
   width: 630px;
@@ -205,10 +196,6 @@ a.nav-link article:hover {
     position: relative;
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
-  }
-
-  article > header {
     width: 100%;
   }
 
