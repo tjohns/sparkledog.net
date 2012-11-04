@@ -1,98 +1,123 @@
 body {
-  background-color: #eee;
-  background:url(http://subtlepatterns.com/patterns/whitey.png);
+  background-color: #fcfcfc;
   color: #333;
-  font-family: "ProximaNova-Regular";
+  font-family: "HelveticaNeue-Light", sans-serif;
   font-size: 14px;
-  margin: 0;
+  margin: 1em 0 0 0;
+  background-image: url(/images/backgrounds/bg-gradient.png);
+  background-repeat: repeat-x;
 }
 
 body > header {
-  position: fixed;
+  width: 600px;
+  margin: 0 auto 2em auto;
   padding: 0;
-  height: 100%;
-  width: 27%;
-  min-width: 260px;
-  float: left;
-  background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/low_contrast_linen.png);
-  -moz-box-shadow:3px 0px 10px 0px #777777;
-  -webkit-box-shadow:3px 0px 10px 0px #777777;
-  box-shadow:3px 0px 10px 0px #777777;
-  color: #eee;
-  text-align: center;
+  border-bottom: solid 1px #999;
 }
 
+body > footer {
+  background-color: #333;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  line-height: 1.3em;
+}
 
-.logo {
-  font-family: "ProximaNovaT-Thin";
-  padding: 20px 0;
+body > footer a {
+  color: #cc0000;
+}
+
+#logo {
+  text-align: center;
+  padding: 0;
   margin: 0;
-  border-bottom: 1px solid #666;
   font-size: 35px;
 }
 
-.nav {
-  padding-left: 0;
+h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
 }
 
-.nav li {
+h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+#nav {
+  text-align: center;
   display: block;
-  font-size: 18px;
-  margin: 30px auto;
-  color: #eee;
-  
+  margin: 0;
+  padding: 0;
 }
 
-.nav li a {
-  border: 2px solid #eee;
-  border-radius: 40px;
-  color: #eee;
-  padding: 5px;
+#nav li {
+  text-align: center;
+  display: inline-block;
+}
+
+#nav a {
+  display: block;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #999;
   text-decoration: none;
 }
 
-.nav li a:hover {
+#nav a.active, #nav a:hover {
+  border-bottom: 3px solid #454aff;
   color: #333;
-  background-color: #eee;
 }
 
+
 .content {
-  margin-left: 27%;
-  padding: 40px 10px;
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  line-height: 1.6em;
+}
+
+.content > * {
+  margin: 0 auto;
 }
 
 article {
   position: relative;
-  width: 630px;
-  padding: 10px 0 0 0;
-  margin: 0 auto 20px auto;
-  background: white;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  border-top: 5px solid #ffaa00; 
+  width: 100%;
+}
+
+article h1 {
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 div#disqus_thread {
   position: relative;
-  width: 630px;
+  width:  100%;
   margin: 0 auto 20px auto;
 }
 
 article > footer {
-  margin: 50px 0 0 0;
+  margin: 50px 0 20px 0;
   padding: 1px 10px 1px 10px;
   background: #f6f6f6;
   /*color: #ddd;*/
 }
   
 .full h1, .full h2, .full h3, .full h4, .full h5, .full h6 {
-  font-family: "MuseoSans-500";
-  font-size: 200%;
+  font-family: "HelveticaNeue-UltraLight";
+  font-size: 250%;
+  font-weight: normal;
 }
 
 .summary h1 {
-  font-family: "MuseoSans-500";
+  font-family: "HelveticaNeue-Bold";
+  font-weight: normal;
   font-size: 120%;
 }
 
@@ -113,18 +138,9 @@ article > footer {
   margin: -32px 10px 0 0;
   padding: 0;
   font-size: 48px;
-  color: #ddd;
+  color:#ddd;
 }
 
-h1 {
-  margin-top: 5px;
-  margin-bottom: 0.5em;
-}
-
-article > * {
-  margin-left: 67px;
-  margin-right: 67px;
-}
 
 article > img.wide {
   width: 100%;
@@ -141,6 +157,10 @@ a.nav-link article:hover {
   background-color: #f6f6f6;
 }
 
+.content a {
+  background-color: #f4faff;
+}
+
 @media only screen and (max-width: 920px) {
     body > header {
     position: relative;
@@ -149,15 +169,7 @@ a.nav-link article:hover {
     margin-bottom: 30px;
   }
   
-  .nav {
-    margin: 20px;
-  }
-  
-  .nav li {
-    display: inline-block;
-    margin: 5px;
-  }
-  
+
   .content {
     position: relative;
     padding: 0;
@@ -177,11 +189,11 @@ a.nav-link article:hover {
     margin-bottom: 30px;
   }
   
-  .nav {
+  #nav {
     margin: 20px;
   }
   
-  .nav li {
+  #nav li {
     display: inline-block;
     margin: 5px;
   }
