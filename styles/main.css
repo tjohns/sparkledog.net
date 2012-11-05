@@ -93,7 +93,8 @@ article {
 
 article h1 {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 0.7em;
+  line-height: 40px;
 }
 
 div#disqus_thread {
@@ -171,27 +172,7 @@ pre {
   background: #eee;
 }
 
-@media only screen and (max-width: 920px) {
-    body > header {
-    position: relative;
-    float: none;
-    width: 100%;
-    margin-bottom: 30px;
-  }
-  
-
-  .content {
-    position: relative;
-    padding: 0;
-    margin: 0;
-  }
-  
-  article {
-    position: relative;
-  }
-}
-
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 610px) {
   body > header {
     position: relative;
     float: none;
@@ -199,29 +180,15 @@ pre {
     margin-bottom: 30px;
   }
   
-  #nav {
-    margin: 20px;
-  }
-  
-  #nav li {
-    display: inline-block;
-    margin: 5px;
-  }
-  
+
   .content {
     position: relative;
     padding: 0;
-    margin: 0;
+    margin: 1em;
+    width: auto
   }
   
   article {
     position: relative;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-  }
-
-  div#disqus_thread {
-    width: 95%;
   }
 }
