@@ -167,6 +167,11 @@ a.nav-link article:hover {
   background-color: #f4faff;
 }
 
+code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 11px;
+}
+
 pre {
   padding: 0.5em 1em;
   background: #eee;
