@@ -166,6 +166,11 @@ a.nav-link article:hover {
   background-color: #f4faff;
 }
 
+pre {
+  padding: 0.5em 1em;
+  background: #eee;
+}
+
 @media only screen and (max-width: 920px) {
     body > header {
     position: relative;
