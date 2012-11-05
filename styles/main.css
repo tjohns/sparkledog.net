@@ -113,8 +113,8 @@ article > footer {
   
 
 .full h1 {
-  font-family: "Roboto-Thin", "HelveticaNeue-Light", "Helvetica-Light", "Arial", sans-serif;
-  font-weight: 100;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
   font-size: 250%;
 }
 
