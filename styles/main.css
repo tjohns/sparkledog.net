@@ -1,7 +1,8 @@
 body {
   background-color: #fcfcfc;
   color: #333;
-  font-family: "Roboto-Light", sans-serif;
+  font-family: "Roboto-Light", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font-weight: 200;
   font-size: 14px;
   margin: 1em 0 0 0;
   background-image: url(/images/backgrounds/bg-gradient.png);
@@ -112,18 +113,19 @@ article > footer {
   
 
 .full h1 {
-  font-family: "Roboto-Thin";
-  font-weight: normal;
+  font-family: "Roboto-Thin", "HelveticaNeue-Light", "Helvetica-Light", "Arial", sans-serif;
+  font-weight: 100;
   font-size: 250%;
 }
 
 .full h2, .full h3, .full h4, .full h5, .full h6 {
-  font-family: "Roboto-BoldCondensed"
+  font-family: "Roboto-BoldCondensed", "HelveticaNeue-CondensedBold", "Helvetica-Bold", "Arial-Bold", sans-serif;
+  font-weight: 600;
 }
 
 .summary h1 {
-  font-family: "Roboto-Medium";
-  font-weight: normal;
+  font-family: "Roboto-Medium", "HelveticaNeue-Medium", "Helvetica-Bold", "Arial-Bold", sans-serif;
+  font-weight: 600;
   font-size: 120%;
 }
 
@@ -170,6 +172,7 @@ a.nav-link article:hover {
 code {
   font-family: "Source Code Pro", monospace;
   font-size: 11px;
+  font-weight: 400;
 }
 
 pre {
