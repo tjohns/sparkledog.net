@@ -20,22 +20,24 @@ There's a [complicated way to get around this][compatibility-blog-2] that takes 
 
 But it turns out almost nobody uses anything less than Android 2.2 anymore[^2], which means I can actually use this new behavior to my advantage to make something that's not just elegant, but _elegantly simple_: 
 
-    import android.util.Log;
-    import android.os.Build;
-    
-    private static final String TAG = "MyApp";
-    private static final String errorMsg = "Insert scary error message here!";
-    
-    public void doSomething() {
-      ...
-      if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
-        Log.wtf(TAG, errorMsg);
-        // The Log.wtf() method was introducted in API 8
-      } else {
-        Log.e(TAG, errorMsg);
-        // The Log.e() method has existed since API 1
-      }
-    }
+{% highlight java %}
+import android.util.Log;
+import android.os.Build;
+
+private static final String TAG = "MyApp";
+private static final String errorMsg = "Insert scary error message here!";
+
+public void doSomething() {
+  ...
+  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
+    Log.wtf(TAG, errorMsg);
+    // The Log.wtf() method was introducted in API 8
+  } else {
+    Log.e(TAG, errorMsg);
+    // The Log.e() method has existed since API 1
+  }
+}
+{% endhighlight %}
 
 Yup, that's it. Just a simple *if-statement*.
 
